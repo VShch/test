@@ -725,4 +725,49 @@ main.main p {
     color: white;
 }
 
-@media 
+@media screen and (max-width: 900px) {
+    .menu{
+        display: none;
+    }
+    .nav-logo{
+        align-items: center;
+        justify-content: center;
+    }
+    .nav{
+            justify-content: center; 
+    }
+   
+}
+
+@media screen and (max-width: 750px) {
+    .content-info-left-email{
+        display: none;
+    }
+    .content-info-right-time{
+        display: none;
+    }
+    .content-info{
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .top-main-text-1{
+        background: none;
+        color: black;
+        letter-spacing: 3px;
+        width: 90%
+    }
+    .top-main-text-2 {
+        display: none;
+        }
+    }
+    .middle-main-text-1{
+        /** width: 90%;
+        height: 60px;
+        border-radius: 10px;
+        color: black;
+        letter-spacing: 3px; **/
+        display: none;
+    }
+}
